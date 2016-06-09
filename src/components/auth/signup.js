@@ -11,8 +11,8 @@ class Signup extends Component {
   renderAlert(){
     if (this.props.errorMessage){
       return (
-        <div calssName="alert alert-danger">
-          <stong>Oops!</stong> {this.props.errorMessage}
+        <div className="alert alert-danger">
+          <stong>Oops! </stong> {this.props.errorMessage}
         </div>
       );
     }
